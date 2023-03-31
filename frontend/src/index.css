@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+  background-color: bisque;
+}
+
+
+.material-symbols-outlined {
+  background-color: #ffb2b2;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.fuddu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9cb77;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.leftt{
+  margin-left: 100px;
+}
+
+.lefttt{
+  margin-left: 200px;
+}
+
+.rightt{
+  margin-right: 100px;
+}
+
+.righttt{
+  margin-right: 200px;
+}
+
+.login-page{
+  width: 400px;
+  margin: auto;
+}
+
+.signup-form{
+  width: 600px;
+  margin: auto;
+}
+
+.asd{
+  width: 250px;
+  /* background-color: #d9cb77; */
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+#quan{
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 250px;
+}
